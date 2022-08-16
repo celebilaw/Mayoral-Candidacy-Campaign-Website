@@ -9,29 +9,22 @@
     box-shadow: 0 2px 4px 0 rgba(82, 178, 191, 0.4);
 }
 
-.brand-title {
-    font-size: 2rem;
-    margin: 0.5rem;
-    margin-right: auto;
-    margin-left: 2vh;
-    font-weight: 900;
-    text-decoration: none;
-    color: #52B2BF;
-    padding: 0.5rem;
+.brand-logo {
+    height: 6rem;
+    width: 100%;
 }
 
-.subTitle {
-    font-size: 1.75rem;
-    font-weight: bold;
-    color: #52bf95;
-    padding-left: 1.5vh;
+.brand-title {
+    margin-right: auto;
+    margin-left: 2vh;
+    padding: 2vh;
 }
 
 .navbar-links > ul {
     margin: 0;
     padding: 0;
     display: flex;
-    margin-right: 1vh;
+    margin-right: 2vh;
 }
 
 .navbar-links > ul > li {

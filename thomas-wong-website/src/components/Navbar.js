@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import {ReactComponent as Logo} from "./icons/logo.svg";
 import "../css/Navbar.css";
 
 window.onload = function() {
@@ -12,10 +13,9 @@ window.onload = function() {
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <Link className="brand-title" to="/"> 
-                <span> Thomas Wong </span> 
-                <span className="subTitle"> Monterey Park City Council </span> 
-            </Link>
+            <div className="brand-title"> 
+                <Link to="/"><Logo className="brand-logo"/> </Link>
+            </div>
             {/* eslint-disable-next-line */}
             <a href="#" className="toggle-nav">
                 <span className="bar"></span>
