@@ -10,7 +10,7 @@ import Photos from "./components/Photos.js";
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      <div className="page-container">
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />

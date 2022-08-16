@@ -1,7 +1,21 @@
 .footnote {
   background-color: #52BF95;
   bottom: 0;
-  position: sticky;
+  position: absolute;
   width: 100%;
   text-align: center;
+}
+
+body {
+  height: 100vh;
+  min-height: 100%;
+}
+
+#root {
+  height: 100vh;
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
 }
