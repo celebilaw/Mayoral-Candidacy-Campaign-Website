@@ -16,7 +16,8 @@ const Navbar = () => {
                 <span> Thomas Wong </span> 
                 <span className="subTitle"> Monterey Park City Council </span> 
             </Link>
-            <a href="/#" className="toggle-nav">
+            {/* eslint-disable-next-line */}
+            <a href="#" className="toggle-nav">
                 <span className="bar"></span>
                 <span className="bar"></span>
                 <span className="bar"></span>
