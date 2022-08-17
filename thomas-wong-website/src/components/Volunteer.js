@@ -2,7 +2,7 @@ import "../css/Volunteer.css";
 
 const Volunteer = () => {
     return (
-        <div>
+        <div className="volunteer-background">
             <iframe
                 className="volunteer-form"
                 src="https://docs.google.com/forms/d/e/1FAIpQLSdnwlDwga_EMgUFaKmiVStcltMwKD4YldoVKQXlOSPDQwGxZg/viewform?embedded=true"

@@ -1,3 +1,8 @@
+.volunteer-background {
+    margin-top: 0.25rem;
+    background-image: url("../components/icons/wallpaper.jpg");
+}
+
 .volunteer-form {
     margin-top: 2rem;
     width: 100%;
