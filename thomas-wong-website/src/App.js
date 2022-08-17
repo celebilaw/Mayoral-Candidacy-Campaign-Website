@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar.js";
 import Biography from "./components/Biography.js";
 import HomePage from "./components/HomePage.js";
 import Volunteer from "./components/Volunteer.js";
-import Donate from "./components/Donate.js";
 import Gallery from "./components/Gallery.js";
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/bio" element={<Biography />} />
             <Route path="/volunteer" element={<Volunteer />} />
-            <Route path="/donate" element={<Donate />} />
             <Route path="/gallery" element={<Gallery />} />
           </Routes>
         </div>

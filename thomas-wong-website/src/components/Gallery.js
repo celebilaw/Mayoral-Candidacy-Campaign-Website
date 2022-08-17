@@ -1,9 +1,11 @@
-const Photos = () => {
+import "../css/Gallery.css";
+
+const Gallery = () => {
     return (
-        <div>
-            photos
+        <div className="gallery-title">
+            Photo Gallery - Thomas Wong for Monterey Park
         </div>
     )
 }
 
-export default Photos;
+export default Gallery;

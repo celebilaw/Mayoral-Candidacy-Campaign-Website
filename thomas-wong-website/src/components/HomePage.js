@@ -63,11 +63,11 @@ const HomePage = () => {
                     <br/><br/>
                     As your Councilmember, I will:
                     <br/>
-                    -Support our families and small businesses
+                    -&nbsp;Support our families and small businesses
                     <br/>
-                    -Enhance city services, including our parks and streets
+                    -&nbsp;Enhance city services, including our parks and streets
                     <br/>
-                    -Ensure our community is safe and continues to be one of the best places to live in the region
+                    -&nbsp;Ensure our community is safe and continues to be one of the best places to live in the region
                     <br/><br/>
                     I&#39;m proud to be endorsed by trusted community leaders, including Congressmember Judy Chu,
                     Assemblymember Mike Fong, County Supervisor Hilda Solis, Monterey Park Mayor Henry Lo,
