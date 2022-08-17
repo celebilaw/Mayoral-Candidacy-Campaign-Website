@@ -23,12 +23,13 @@ function App() {
           </Routes>
         </div>
         <footer className="footnote">
-          {/* eslint-disable */}
-          <a href="https://www.facebook.com/thomaswong05" class="fa fa-facebook" />
-          <a href="https://www.instagram.com/thomaswongsgv/" class="fa fa-instagram" />
-          <a href="https://twitter.com/SCE_ThomasW" class="fa fa-twitter" />
-          {/* eslint-enable */}
-          <br />
+          <span className="icon-container">
+            {/* eslint-disable */}
+            <a href="https://www.facebook.com/thomaswong05" class="fa fa-facebook" />
+            <a href="https://www.instagram.com/thomaswongsgv/" class="fa fa-instagram" />
+            <a href="https://twitter.com/SCE_ThomasW" class="fa fa-twitter" />
+            {/* eslint-enable */}
+          </span>
           <span className="reqNote">Paid for by Thomas Wong for Monterey Park City Council 2022 - FPPC #1442651 </span>
         </footer>
       </div>
