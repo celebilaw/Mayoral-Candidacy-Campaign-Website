@@ -1,5 +1,6 @@
 .home-container {
     display: flex;
+    align-items: center;
 }
 
 .carousel-image {
@@ -9,7 +10,7 @@
 }
 
 .carousel {
-    flex: 60%;
+    flex: 65%;
     height: 80vh;
     margin: 2.5vh;
     box-shadow: 0 0 4px 0 rgba(82, 178, 191, 0.3);
@@ -17,7 +18,43 @@
 }
 
 .mission-statement {
-    flex: 40%;
-    color: black;
+    display: flex;
+    flex-direction: column;
+    flex: 35%;
+    color: #52B2BF;
     margin: 2.5vh;
+    align-items: center;
+    box-shadow: 0 0 4px 0 rgba(82, 178, 191, 1);
+    border-radius: 20px;
+    padding: 1.5rem;
+}
+
+.statement-title {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    font-weight: 900;
+    text-align: center;
+}
+
+.statement-subTitle {
+    margin-top: 0;
+    text-align: center;
+    color: #52BF95;
+}
+
+.statement-content {
+    font-size: 1.70vh;
+    font-weight: bold;
+}
+
+@media (max-width:950px) {
+    .home-container {
+        flex-direction: column;
+        align-items: normal;
+        justify-content: center;
+    }
+
+    .mission-statement {
+        margin-top: 0;
+    }
 }
