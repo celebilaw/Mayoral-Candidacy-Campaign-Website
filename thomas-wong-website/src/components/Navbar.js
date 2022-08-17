@@ -5,8 +5,10 @@ import "../css/Navbar.css";
 window.onload = function() {
     const toggleNav = document.getElementsByClassName("toggle-nav")[0];
     const navBarLinks = document.getElementsByClassName("navbar-links")[0];
+    const navButton = document.getElementsByClassName("nav-button")[0];
     toggleNav.addEventListener("click", () => {
         navBarLinks.classList.toggle("active");
+        navButton.classList.toggle("active");
     })
 }
 
@@ -28,13 +30,15 @@ const Navbar = () => {
                         <Link className="nav-link" to="/volunteer"> Volunteer </Link>
                     </li>
                     <li>
-                        <Link className="nav-link" to="/donate"> Donate </Link>
-                    </li>
-                    <li>
                         <Link className="nav-link" to="/photos"> Photos </Link>
                     </li>
                 </ul>
             </div>
+            <button type="button" className="nav-button">
+                <a className="nav-button-link" href="https://www.efundraisingconnections.com/c/ThomasWongforMontereyParkCityCouncil2022">
+                    Donate
+                </a>
+            </button>
         </nav>
     )
 }
