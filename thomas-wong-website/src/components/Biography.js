@@ -9,7 +9,7 @@ const Biography = () => {
             </div>
             <div className="biography">
                 <div className="biography-title">
-                    About Thomas
+                    Thomas Wong
                 </div>
                 <div className="biography-content">
                     Thomas Wong is an accomplished community leader and  
@@ -63,7 +63,8 @@ const Biography = () => {
                     LA County Supervisor Hilda Solis, Monterey Park Mayor Henry Lo, Monterey Park  
                     Councilmembers Hans Liang and Peter Chan, former Assemblymember Mike Eng and many other  local leaders.  
                     <br/><br/>
-                    He&#39;s ready to talk about ways to make Monterey Park better for everyone. You can reach him at  votethomaswong@gmail.com.
+                    He&#39;s ready to talk about ways to make Monterey Park better for everyone. You can reach him at&nbsp;
+                    <span className="bold-email">votethomaswong@gmail.com.</span>
                 </div>
             </div>
         </div>
