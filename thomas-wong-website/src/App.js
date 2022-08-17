@@ -2,22 +2,26 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 import Navbar from "./components/Navbar.js";
+import Biography from "./components/Biography.js";
 import HomePage from "./components/HomePage.js";
 import Volunteer from "./components/Volunteer.js";
 import Donate from "./components/Donate.js";
-import Photos from "./components/Photos.js";
+import Gallery from "./components/Gallery.js";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="page-container">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/volunteer" element={<Volunteer />} />
-          <Route path="/donate" element={<Donate />} />
-          <Route path="/photos" element={<Photos />} />
-        </Routes>
+        <div className="content-wrap">
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/bio" element={<Biography />} />
+            <Route path="/volunteer" element={<Volunteer />} />
+            <Route path="/donate" element={<Donate />} />
+            <Route path="/gallery" element={<Gallery />} />
+          </Routes>
+        </div>
         <footer className="footnote">
           {/* eslint-disable */}
           <a href="https://www.facebook.com/thomaswong05" class="fa fa-facebook" />

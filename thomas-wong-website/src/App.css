@@ -2,6 +2,7 @@
   background-color: #52BF95;
   bottom: 0;
   position: absolute;
+  height: 5rem;
   width: 100%;
   text-align: center;
 }
@@ -15,14 +16,18 @@ body {
   height: 100vh;
 }
 
+.content-wrap {
+  padding-bottom: 5rem;
+}
+
 .page-container {
   position: relative;
   min-height: 100vh;
 }
 
 .fa {
-  font-size: 2vh;
-  width: 2vh;
+  font-size: 1rem;
+  width: 1rem;
   text-align: center;
   text-decoration: none;
   margin: 1vh;
@@ -47,6 +52,6 @@ body {
 }
 
 .reqNote {
-  font-size: 1.5vh;
+  font-size: 0.85rem;
   color: white;
 }
