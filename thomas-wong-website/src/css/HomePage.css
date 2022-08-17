@@ -34,12 +34,14 @@
     margin-bottom: 0;
     font-weight: 900;
     text-align: center;
+    letter-spacing: 0.05rem;
 }
 
 .statement-subTitle {
     margin-top: 0;
     text-align: center;
     color: #52BF95;
+    letter-spacing: 0.05rem;
 }
 
 .statement-content {

@@ -1,5 +1,5 @@
 import "../css/Biography.css";
-import Profile from "./icons/profile-image.jpg";
+import Profile from "./icons/pfp.jpg";
 
 const Biography = () => {
     return (
@@ -11,6 +11,19 @@ const Biography = () => {
                 <div className="biography-title">
                     Thomas Wong
                 </div>
+                <div className="biography-subTitle">
+                    President of San Gabriel Valley Municipal Water District, <br/>
+                    Public Affairs Manager at Southern California Edision (SCE), <br/>
+                    Candidate for Monterey Park City Council
+                </div>
+                <div className="biography-statement">
+                    Keeping Monterey Park a city of opportunity for all
+                </div>
+                <hr className="bio-line-break"/>
+                <a href="mailto: votethomaswong@gmail.com" className="biography-contact">
+                    <span className="fa fa-envelope"></span>
+                    votethomaswong@gmail.com
+                </a>
                 <div className="biography-content">
                     Thomas Wong is an accomplished community leader and  
                     environmental advocate who has dedicated his career to  
@@ -63,8 +76,8 @@ const Biography = () => {
                     LA County Supervisor Hilda Solis, Monterey Park Mayor Henry Lo, Monterey Park  
                     Councilmembers Hans Liang and Peter Chan, former Assemblymember Mike Eng and many other  local leaders.  
                     <br/><br/>
-                    He&#39;s ready to talk about ways to make Monterey Park better for everyone. You can reach him at&nbsp;
-                    <span className="bold-email">votethomaswong@gmail.com.</span>
+                    He&#39;s ready to talk about ways to make Monterey Park better for everyone. You can reach him at 
+                    votethomaswong@gmail.com.
                 </div>
             </div>
         </div>
