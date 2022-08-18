@@ -1,8 +1,6 @@
-.gallery-title {
-    display: flex;
-    justify-content: center;
-    font-size: 1.5rem;
-    color: #52B2BF;
-    font-weight: 900;
+.gallery {
     margin: 2.5vh;
+}
+
+@media (max-width: 1000px) {
 }
