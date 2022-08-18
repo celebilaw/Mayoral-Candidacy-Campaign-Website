@@ -13,7 +13,7 @@ const Biography = () => {
                 </div>
                 <div className="biography-subTitle">
                     President of San Gabriel Valley Municipal Water District, <br/>
-                    Public Affairs Manager at Southern California Edision (SCE), <br/>
+                    Public Affairs Manager at Southern California Edision, <br/>
                     Candidate for Monterey Park City Council
                 </div>
                 <div className="biography-statement">

@@ -57,6 +57,7 @@
     color: #A9AAB9;
     padding: 1rem;
     padding-top: 0rem;
+    text-align: center;
 }
 
 .bio-line-break {
@@ -87,9 +88,35 @@
     letter-spacing: normal;
 }
 
-@media (max-width:1250px) {
+@media (max-width:1060px) {
     .biography {
-        margin-left: 2vw;
-        margin-right: 2vw;
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
+
+    .biography-subTitle {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .biography-subTitle {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .biography-statement {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 610px) {
+    .biography-subTitle {
+        font-size: 0.56rem;
+    }
+
+    .biography-statement {
+        font-size: 0.6rem;
     }
 }
