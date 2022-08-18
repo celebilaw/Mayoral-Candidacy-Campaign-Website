@@ -2,4 +2,4 @@
 Thomas Wong's Website
 
 
-Website Deployed at thomaswong.com
+Website Deployed at http://thomaswong.com/
