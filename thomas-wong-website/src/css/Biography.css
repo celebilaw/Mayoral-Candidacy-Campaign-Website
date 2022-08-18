@@ -93,6 +93,10 @@
     letter-spacing: normal;
 }
 
+.bio-email {
+    font-weight: 700;
+}
+
 @media (max-width:1060px) {
     .biography {
         margin-left: 5vw;

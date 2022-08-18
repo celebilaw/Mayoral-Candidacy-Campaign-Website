@@ -76,8 +76,8 @@ const Biography = () => {
                     LA County Supervisor Hilda Solis, Monterey Park Mayor Henry Lo, Monterey Park  
                     Councilmembers Hans Liang and Peter Chan, former Assemblymember Mike Eng and many other  local leaders.  
                     <br/><br/>
-                    He&#39;s ready to talk about ways to make Monterey Park better for everyone. You can reach him at 
-                    votethomaswong@gmail.com.
+                    He&#39;s ready to talk about ways to make Monterey Park better for everyone. You can reach him at&nbsp;
+                    <span className="bio-email">votethomaswong@gmail.com</span>.
                 </div>
             </div>
         </div>
