@@ -95,11 +95,19 @@
 
 @media (max-width:1060px) {
     .biography {
-        margin-left: 8vw;
-        margin-right: 8vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
 
     .biography-subTitle {
+        font-size: 0.9rem;
+    }
+
+    .biography-statement {
+        font-size: 0.9rem;
+    }
+
+    .biography-contact {
         font-size: 0.9rem;
     }
 }
@@ -108,8 +116,18 @@
     .bio-content::after {
         content: none;
     }
+}
+
+@media (max-width: 550px) {
+    .biography-subTitle {
+        font-size: 0.8rem;
+    }
+
+    .biography-statement {
+        font-size: 0.8rem;
+    }
 
     .biography-contact {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 }
