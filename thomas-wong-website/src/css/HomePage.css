@@ -4,14 +4,14 @@
 }
 
 .carousel-image {
-    height: 80vh;
+    height: 39vw;
     width: 100%;
     border-radius: 20px;
 }
 
 .carousel {
     flex: 65%;
-    height: 80vh;
+    height: 39vw;
     margin: 2.5vh;
     box-shadow: 0 0 4px 0 rgba(82, 178, 191, 0.3);
     border-radius: 20px;
@@ -26,12 +26,13 @@
     align-items: center;
     box-shadow: 0 0 4px 0 rgba(82, 178, 191, 1);
     border-radius: 20px;
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
 .statement-title {
     font-size: 2.5rem;
     margin-bottom: 0;
+    margin-top: 0;
     font-weight: 900;
     text-align: center;
     letter-spacing: 0.05rem;
@@ -47,9 +48,24 @@
 .statement-content {
     font-size: 1rem;
     font-weight: bold;
+    margin-top: 0;
+    padding: 0.5rem;
+    padding-bottom: 0;
 }
 
-@media (max-width:950px) {
+@media (max-width: 1500px) {
+    .statement-content {
+        font-size: 0.9vw;
+    }
+}
+
+@media (max-width: 1330px) {
+    .statement-content {
+        font-size: 0.95vw;
+    }
+}
+
+@media (max-width: 1200px) {
     .home-container {
         flex-direction: column;
         align-items: normal;
@@ -58,5 +74,17 @@
 
     .mission-statement {
         margin-top: 0;
+    }
+
+    .statement-content {
+        font-size: 1rem;
+    }
+
+    .carousel-image {
+        height: 60vw;
+    }
+
+    .carousel {
+        height: 60vw;
     }
 }
