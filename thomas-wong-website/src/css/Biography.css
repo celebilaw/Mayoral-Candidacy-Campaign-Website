@@ -51,6 +51,11 @@
     padding: 1rem;
 }
 
+.bio-content::after {
+    content: "\a";
+    white-space: pre;
+}
+
 .biography-statement {
     font-size: 1rem;
     font-weight: 600;
@@ -100,23 +105,11 @@
 }
 
 @media (max-width: 700px) {
-    .biography-subTitle {
-        font-size: 0.75rem;
-    }
-}
-
-@media (max-width: 700px) {
-    .biography-statement {
-        font-size: 0.8rem;
-    }
-}
-
-@media (max-width: 610px) {
-    .biography-subTitle {
-        font-size: 0.56rem;
+    .bio-content::after {
+        content: none;
     }
 
-    .biography-statement {
-        font-size: 0.6rem;
+    .biography-contact {
+        font-size: 0.9rem;
     }
 }

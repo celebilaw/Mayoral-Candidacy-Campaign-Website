@@ -69,7 +69,7 @@
 
 .toggle-nav {
     position: absolute;
-    top: 6vh;
+    top: 7.5vh;
     right: 1rem;
     display: none;
     flex-direction: column;
