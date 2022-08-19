@@ -14,9 +14,18 @@ const Navbar = () => {
         setNavOpen(!navOpen);
     }
 
+    function navClose() {
+        const navBarLinks = document.querySelector(".navbar-links");
+        const navButton = document.querySelector(".nav-button");
+        if (navOpen) {
+            navBarLinks.classList.toggle("active");
+            navButton.classList.toggle("active");
+        }
+    }
+
     return (
         <nav className="navbar">
-            <div className="brand-title" onClick={() => navCollapseFlip()}> 
+            <div className="brand-title" onClick={() => navClose()}> 
                 <Link to="/"><Logo className="brand-logo"/> </Link>
             </div>
             {/* eslint-disable-next-line */}
