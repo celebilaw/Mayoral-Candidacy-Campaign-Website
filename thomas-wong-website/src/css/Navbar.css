@@ -17,7 +17,8 @@
 .brand-title {
     margin-right: auto;
     margin-left: 2vw;
-    padding: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 .navbar-links > ul {
@@ -44,26 +45,31 @@
     border-radius: 10px;
 }
 
-.nav-button {
+.nav-button-link {
     background-color: #52BF95;
     border-radius: 10px;
     border: none;
     color: white;
-    padding: 1rem;
-    margin-right: 3.5vh;
-    width: 7rem;
-    line-height: 1vh;
+    margin-right: 2vw;
+    padding: 0.65rem;
+    width: 5.75rem;
     justify-content: center;
-}
-
-.nav-button-link {
     text-decoration: none;
     text-align: center;
     font-weight: 800;
-    color: white;
 }
 
-.nav-button:hover {
+.nav-button {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    border: none;
+    background: none;
+    pointer-events: none;
+}
+
+.nav-button-link:hover {
     background-color: #52B2BF;
 }
 
@@ -85,9 +91,13 @@
     border-radius: 15px;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 700px) {
     .toggle-nav {
         display: flex;
+    }
+
+    .brand-title {
+        margin-left: 3vw;
     }
 
     .subTitle::before {
@@ -100,9 +110,10 @@
         width: 100%;
     }
 
-    .nav-button {
+    .nav-button-link {
         display: none;
         margin-bottom: 0.5rem;
+        padding: 0.62rem;
     }
 
     .navbar {
@@ -128,7 +139,7 @@
         display: flex;
     }
 
-    .nav-button.active {
+    .nav-button-link.active {
         display: flex;
         line-height: 1vh;
         margin-left: auto;
@@ -138,10 +149,8 @@
 
 @media (max-width: 490px) {
     .brand-title {
-        padding: 0;
-        padding-left: 1.5rem;
-        padding-right: 0.5rem;
-        margin-left: 0;
+        margin-left: 1.5rem;
+        margin-right: 0.5rem;
     }
 
     .brand-logo {

@@ -8,7 +8,7 @@ const Navbar = () => {
 
     function navCollapseFlip() {
         const navBarLinks = document.querySelector(".navbar-links");
-        const navButton = document.querySelector(".nav-button");
+        const navButton = document.querySelector(".nav-button-link");
         navBarLinks.classList.toggle("active");
         navButton.classList.toggle("active");
         setNavOpen(!navOpen);
@@ -16,7 +16,7 @@ const Navbar = () => {
 
     function navClose() {
         const navBarLinks = document.querySelector(".navbar-links");
-        const navButton = document.querySelector(".nav-button");
+        const navButton = document.querySelector(".nav-button-link");
         if (navOpen) {
             navBarLinks.classList.toggle("active");
             navButton.classList.toggle("active");
@@ -26,13 +26,9 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-            {/* <div className="brand-title" onClick={() => navClose()}>  */}
             <Link to="/" className="brand-title">
-                <div onClick={() => navClose()}>
-                    <Logo className="brand-logo"/>
-                </div>
+                <Logo className="brand-logo" onClick={() => navClose()}/>
             </Link>
-            {/* </div> */}
             {/* eslint-disable-next-line */}
             <a href="#" className="toggle-nav" onClick={() => navCollapseFlip()}>
                 <span className="bar"></span>
@@ -52,11 +48,14 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
-            <button type="button" className="nav-button" onClick={() => navCollapseFlip()}>
-                <a className="nav-button-link" href="https://www.efundraisingconnections.com/c/ThomasWongforMontereyParkCityCouncil2022">
+            <a className="nav-button-link" 
+                href="https://www.efundraisingconnections.com/c/ThomasWongforMontereyParkCityCouncil2022"
+                onClick={() => navCollapseFlip()}
+            >
+                <button type="button" className="nav-button">
                     Donate
-                </a>
-            </button>
+                </button>
+            </a>
         </nav>
     )
 }
