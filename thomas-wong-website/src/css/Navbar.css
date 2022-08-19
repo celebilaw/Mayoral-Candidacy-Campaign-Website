@@ -75,7 +75,7 @@
 
 .toggle-nav {
     position: absolute;
-    top: 7.1vh;
+    top: 6.85vh;
     right: 2rem;
     display: none;
     flex-direction: column;
@@ -96,13 +96,13 @@
         display: flex;
     }
 
-    .brand-title {
-        margin-left: 3vw;
-    }
-
     .subTitle::before {
         content: "\A";
         white-space: pre;
+    }
+
+    .brand-title {
+        margin-left: 3vw;
     }
 
     .navbar-links {
@@ -149,8 +149,14 @@
 
 @media (max-width: 490px) {
     .brand-title {
-        margin-left: 1.5rem;
-        margin-right: 0.5rem;
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-right: 0.5rem;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
     }
 
     .brand-logo {
