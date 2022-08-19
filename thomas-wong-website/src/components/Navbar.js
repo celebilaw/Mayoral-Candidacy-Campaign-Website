@@ -5,10 +5,10 @@ import "../css/Navbar.css";
 
 const Navbar = () => {
     const [navOpen, setNavOpen] = useState(false);
-    const navBarLinks = document.getElementsByClassName("navbar-links")[0];
-    const navButton = document.getElementsByClassName("nav-button")[0];
 
     function navCollapseFlip() {
+        const navBarLinks = document.querySelector(".navbar-links");
+        const navButton = document.querySelector(".nav-button");
         navBarLinks.classList.toggle("active");
         navButton.classList.toggle("active");
         setNavOpen(!navOpen);
