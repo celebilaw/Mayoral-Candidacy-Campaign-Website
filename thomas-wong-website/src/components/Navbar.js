@@ -20,6 +20,7 @@ const Navbar = () => {
         if (navOpen) {
             navBarLinks.classList.toggle("active");
             navButton.classList.toggle("active");
+            setNavOpen(!navOpen);
         }
     }
 
