@@ -69,7 +69,7 @@
 
 .toggle-nav {
     position: absolute;
-    top: 7.5vh;
+    top: 7.1vh;
     right: 1rem;
     display: none;
     flex-direction: column;
@@ -85,7 +85,7 @@
     border-radius: 15px;
 }
 
-@media (max-width: 710px) {
+@media (max-width: 740px) {
     .toggle-nav {
         display: flex;
     }

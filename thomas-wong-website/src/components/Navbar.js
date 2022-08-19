@@ -1,30 +1,31 @@
 import { Link } from "react-router-dom";
 import {ReactComponent as Logo} from "./icons/logo.svg";
+import { useState } from "react";
 import "../css/Navbar.css";
 
-window.onload = function() {
-    const toggleNav = document.getElementsByClassName("toggle-nav")[0];
+const Navbar = () => {
+    const [navOpen, setNavOpen] = useState(false);
     const navBarLinks = document.getElementsByClassName("navbar-links")[0];
     const navButton = document.getElementsByClassName("nav-button")[0];
-    toggleNav.addEventListener("click", () => {
+
+    function navCollapseFlip() {
         navBarLinks.classList.toggle("active");
         navButton.classList.toggle("active");
-    })
-}
+        setNavOpen(!navOpen);
+    }
 
-const Navbar = () => {
     return (
         <nav className="navbar">
-            <div className="brand-title"> 
+            <div className="brand-title" onClick={() => navCollapseFlip()}> 
                 <Link to="/"><Logo className="brand-logo"/> </Link>
             </div>
             {/* eslint-disable-next-line */}
-            <a href="#" className="toggle-nav">
+            <a href="#" className="toggle-nav" onClick={() => navCollapseFlip()}>
                 <span className="bar"></span>
                 <span className="bar"></span>
                 <span className="bar"></span>
             </a>
-            <div className="navbar-links">
+            <div className="navbar-links" onClick={() => navCollapseFlip()}>
                 <ul>
                     <li>
                         <Link className="nav-link" to="/bio"> About Me </Link>
@@ -37,7 +38,7 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
-            <button type="button" className="nav-button">
+            <button type="button" className="nav-button" onClick={() => navCollapseFlip()}>
                 <a className="nav-button-link" href="https://www.efundraisingconnections.com/c/ThomasWongforMontereyParkCityCouncil2022">
                     Donate
                 </a>
