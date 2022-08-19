@@ -39,7 +39,7 @@ function CreateCarousel(props) {
 function Item(props)
 {
     return (
-        <img className="carousel-image" src={props.item.webUrl} alt="MPK Photos"/>
+        <img className="carousel-image" src={props.item.webUrl} alt="MPK Photos" loading="lazy"/>
     )
 }
 

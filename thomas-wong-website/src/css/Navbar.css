@@ -16,7 +16,7 @@
 
 .brand-title {
     margin-right: auto;
-    margin-left: 2vh;
+    margin-left: 2vw;
     padding: 2vh;
 }
 
@@ -134,5 +134,10 @@
         margin-left: auto;
         margin-right: auto;
     }
+}
 
+@media (max-width: 490px) {
+    .brand-title {
+        padding-left: 0;
+    }
 }
