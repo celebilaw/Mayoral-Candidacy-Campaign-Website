@@ -139,12 +139,16 @@
 @media (max-width: 490px) {
     .brand-title {
         padding: 0;
-        padding-left: 0.5rem;
+        padding-left: 1.5rem;
         padding-right: 0.5rem;
         margin-left: 0;
     }
 
     .brand-logo {
         width: 50%;
+    }
+
+    .toggle-nav {
+        top: 50%;
     }
 }
