@@ -70,7 +70,7 @@
 .toggle-nav {
     position: absolute;
     top: 7.1vh;
-    right: 1rem;
+    right: 2rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -149,6 +149,6 @@
     }
 
     .toggle-nav {
-        top: 50%;
+        top: 4rem;
     }
 }
