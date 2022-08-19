@@ -27,7 +27,7 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             {/* <div className="brand-title" onClick={() => navClose()}>  */}
-            <Link to="/" className="brand-title"><Logo className="brand-logo" onClick={() => navClose()}/> </Link>
+            <Link to="/" className="brand-title" onClick={() => navClose()}><Logo className="brand-logo"/> </Link>
             {/* </div> */}
             {/* eslint-disable-next-line */}
             <a href="#" className="toggle-nav" onClick={() => navCollapseFlip()}>
