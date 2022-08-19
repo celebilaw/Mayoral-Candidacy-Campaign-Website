@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import {ReactComponent as Logo} from "./icons/logo.svg";
 import { useState } from "react";
 import "../css/Navbar.css";
+import $ from "jquery";
 
 const Navbar = () => {
     const [navOpen, setNavOpen] = useState(false);
@@ -9,6 +10,10 @@ const Navbar = () => {
     function navCollapseFlip() {
         const navBarLinks = document.querySelector(".navbar-links");
         const navButton = document.querySelector(".nav-button-link");
+        if ($(".toggle-nav").css("display") === "none")
+        {
+            return;
+        }
         navBarLinks.classList.toggle("active");
         navButton.classList.toggle("active");
         setNavOpen(!navOpen);
