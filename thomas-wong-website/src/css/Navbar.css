@@ -139,5 +139,6 @@
 @media (max-width: 490px) {
     .brand-title {
         padding-left: 0;
+        margin-left: 0.5rem;
     }
 }
