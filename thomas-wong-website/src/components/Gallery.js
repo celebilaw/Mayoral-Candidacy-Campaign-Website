@@ -53,12 +53,12 @@ const images = [
     title: 'img12',
   },
   {
-    webUrl: Image17,
-    title: 'img17',
+    webUrl: Image22,
+    title: 'img22',
   },
   {
-    webUrl: Image5,
-    title: 'img5',
+    webUrl: Image23,
+    title: 'img23',
   },
   {
     webUrl: Image6,
@@ -125,12 +125,12 @@ const images = [
     title: 'img21',
   },
   {
-    webUrl: Image22,
-    title: 'img22',
+    webUrl: Image17,
+    title: 'img17',
   },
   {
-    webUrl: Image23,
-    title: 'img23',
+    webUrl: Image5,
+    title: 'img5',
   },
 ];
 
