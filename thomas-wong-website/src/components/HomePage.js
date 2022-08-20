@@ -27,10 +27,11 @@ function CreateCarousel(props) {
             stopAutoPlayOnHover={false}
             navButtonsAlwaysVisible={false}
             className="carousel"
+            loading="lazy"
         >
             {
                 // creates an array of Items
-                items.map((item) => <Item item={item}/>)
+                items.map((item) => <Item item={item} loading="lazy"/>)
             }
         </Carousel>
     )
