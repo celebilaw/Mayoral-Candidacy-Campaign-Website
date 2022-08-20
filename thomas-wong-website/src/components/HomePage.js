@@ -1,9 +1,9 @@
 import Carousel from "react-material-ui-carousel";
 import "../css/HomePage.css";
-import Image1 from "./icons/img1.jpg";
-import Image2 from "./icons/img2.jpg";
-import Image3 from "./icons/img3.jpg";
-import Image4 from "./icons/img4.jpg";
+import Image1 from "./icons/img1.webp";
+import Image2 from "./icons/img2.webp";
+import Image3 from "./icons/img3.webp";
+import Image4 from "./icons/img4.webp";
 
 function CreateCarousel(props) {
     var items = [

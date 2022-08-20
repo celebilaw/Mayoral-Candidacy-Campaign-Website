@@ -10,6 +10,7 @@ const Volunteer = () => {
                 frameborder="0" 
                 marginheight="0" 
                 marginwidth="0"
+                loading="lazy"
             >
                 Loading…
             </iframe>

@@ -1,5 +1,5 @@
 import "../css/Biography.css";
-import Profile from "./icons/pfp.jpg";
+import Profile from "./icons/pfp.webp";
 
 const Biography = () => {
     return (

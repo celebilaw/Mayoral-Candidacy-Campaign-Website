@@ -1,4 +1,27 @@
 import "../css/Gallery.css";
+import Image1 from "./gallery-pics/img1.webp";
+import Image2 from "./gallery-pics/img2.webp";
+import Image3 from "./gallery-pics/img3.webp";
+import Image4 from "./gallery-pics/img4.webp";
+import Image5 from "./gallery-pics/img5.webp";
+import Image6 from "./gallery-pics/img6.webp";
+import Image7 from "./gallery-pics/img7.webp";
+import Image8 from "./gallery-pics/img8.webp";
+import Image9 from "./gallery-pics/img9.webp";
+import Image10 from "./gallery-pics/img10.webp";
+import Image11 from "./gallery-pics/img11.webp";
+import Image12 from "./gallery-pics/img12.webp";
+import Image13 from "./gallery-pics/img13.webp";
+import Image14 from "./gallery-pics/img14.webp";
+import Image15 from "./gallery-pics/img15.webp";
+import Image16 from "./gallery-pics/img16.webp";
+import Image17 from "./gallery-pics/img17.webp";
+import Image18 from "./gallery-pics/img18.webp";
+import Image19 from "./gallery-pics/img19.webp";
+import Image20 from "./gallery-pics/img20.webp";
+import Image21 from "./gallery-pics/img21.webp";
+import Image22 from "./gallery-pics/img22.webp";
+import Image23 from "./gallery-pics/img23.webp";
 import { Box, ImageList, ImageListItem, useMediaQuery } from '@mui/material';
 
 function ImageGallery() {
@@ -18,95 +41,95 @@ function ImageGallery() {
 
 const images = [
   {
-    webUrl: "https://drive.google.com/uc?export=view&id=18l-4C6hyAGj--3069Nz9ZGba7rlvnVC5",
-    title: 'img1',
-  },
-  {
-    webUrl: "https://drive.google.com/uc?export=view&id=1Qgk0PLXYfcRWf2b3HD3_Xh41e8azIala",
-    title: 'img2',
-  },
-  {
-    webUrl: 'https://drive.google.com/uc?export=view&id=1p9gxPwswjrkD5d3VWDvuO8UFVrfRPoX_',
+    webUrl: Image3,
     title: 'img3',
   },
   {
-    webUrl: 'https://drive.google.com/uc?export=view&id=1u3o0h3r-yQOEq_9l2bkzsupJOOCG0v_u',
-    title: 'img4',
+    webUrl: Image1,
+    title: 'img1',
   },
   {
-    webUrl: 'https://drive.google.com/uc?export=view&id=142IC2nqJ_gdutVYD4IVYtdGlDW-yMY8w',
-    title: 'img5',
-  },
-  {
-    webUrl: 'https://drive.google.com/uc?export=view&id=1tfoQihym_0eJU9q2N_9xBDOPGNJ5Gzap',
-    title: 'img6',
-  },
-  {
-    webUrl: 'https://drive.google.com/uc?export=view&id=1_hwxgKYecuD_xSHbiuitrI9dLYrDxcLi',
-    title: 'img7',
-  },
-  {
-    webUrl: 'https://drive.google.com/uc?export=view&id=1LBj9g5LnQYf1tUVxdqSDsaRqexLIQ5H7',
-    title: 'img8',
-  },
-  {
-    webUrl: 'https://drive.google.com/uc?export=view&id=1PCcLvUJWouCrDMGaku8_75wAbJExO3E1',
-    title: 'img9',
-  },
-  {
-    webUrl: 'https://drive.google.com/uc?export=view&id=1QTjsowZj7yquY5zHgPIjN3vPRMKCV7Be',
-    title: 'img10',
-  },
-  {
-    webUrl: 'https://drive.google.com/uc?export=view&id=11hSte17wgSObs0MFIF4GCMp-CQu0tiJ5',
-    title: 'img11',
-  },
-  {
-    webUrl: 'https://drive.google.com/uc?export=view&id=1wcBC9zG73AR8q2TPYvNd9B8w2pxKUNss',
+    webUrl: Image12,
     title: 'img12',
   },
   {
-    webUrl: 'https://drive.google.com/uc?export=view&id=1XDBEz1lQ4DLVlUDrwGaZ1jHxCTEEg--_',
-    title: 'img13',
-  },
-  {
-    webUrl: 'https://drive.google.com/uc?export=view&id=1j_hyQo61MbZTF_IIH2hovD2FUcKY9Blx',
-    title: 'img14',
-  },
-  {
-    webUrl: 'https://drive.google.com/uc?export=view&id=1cFI6A0roT0lI2ev7WX-UPRHBhLz6q-R3',
-    title: 'img15',
-  },
-  {
-    webUrl: 'https://drive.google.com/uc?export=view&id=1VEJwb9iw-0nNjLG2pL99X6Tsg5APWjhE',
-    title: 'img16',
-  },
-  {
-    webUrl: 'https://drive.google.com/uc?export=view&id=17IWkN5ZDxxLmKAUJp3ydQUsmgIqphCbl',
+    webUrl: Image17,
     title: 'img17',
   },
   {
-    webUrl: 'https://drive.google.com/uc?export=view&id=17ewzlqLo9x9BLlbN236ktR1DkX23cVI_',
+    webUrl: Image5,
+    title: 'img5',
+  },
+  {
+    webUrl: Image6,
+    title: 'img6',
+  },
+  {
+    webUrl: Image7,
+    title: 'img7',
+  },
+  {
+    webUrl: Image8,
+    title: 'img8',
+  },
+  {
+    webUrl: Image9,
+    title: 'img9',
+  },
+  {
+    webUrl: Image10,
+    title: 'img10',
+  },
+  {
+    webUrl: Image18,
     title: 'img18',
   },
   {
-    webUrl: 'https://drive.google.com/uc?export=view&id=1KNLUV_nfExSfV5RF0AGTybyY0TA3Ya3L',
-    title: 'img19',
+    webUrl: Image4,
+    title: 'img4',
   },
   {
-    webUrl: 'https://drive.google.com/uc?export=view&id=1x2FpjtNPGRVm_koRjqYV6Ytmgk2pub9r',
+    webUrl: Image13,
+    title: 'img13',
+  },
+  {
+    webUrl: Image14,
+    title: 'img14',
+  },
+  {
+    webUrl: Image15,
+    title: 'img15',
+  },
+  {
+    webUrl: Image20,
     title: 'img20',
   },
   {
-    webUrl: 'https://drive.google.com/uc?export=view&id=1s91PsOyQxVHUFVhjlj2CXJdoSPGjR9W5',
+    webUrl: Image2,
+    title: 'img2',
+  },
+  {
+    webUrl: Image11,
+    title: 'img11',
+  },
+  {
+    webUrl: Image19,
+    title: 'img19',
+  },
+  {
+    webUrl: Image16,
+    title: 'img16',
+  },
+  {
+    webUrl: Image21,
     title: 'img21',
   },
   {
-    webUrl: 'https://drive.google.com/uc?export=view&id=1CGEzXOKjRD7iH_Whpqu2DKLFhm-MZBVP',
+    webUrl: Image22,
     title: 'img22',
   },
   {
-    webUrl: 'https://drive.google.com/uc?export=view&id=1gx1BDEvo07EtULtspBkp-HBvmvBzV7CU',
+    webUrl: Image23,
     title: 'img23',
   },
 ];
