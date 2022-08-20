@@ -5,22 +5,22 @@ import Image2 from "./icons/img2.webp";
 import Image3 from "./icons/img3.webp";
 import Image4 from "./icons/img4.webp";
 
-function CreateCarousel(props) {
-    var items = [
-        {
-            webUrl: Image1
-        },
-        {
-            webUrl: Image2
-        },
-        {
-            webUrl: Image3
-        },
-        {
-            webUrl: Image4
-        },
-    ]
+var items = [
+    {
+        webUrl: Image1
+    },
+    {
+        webUrl: Image2
+    },
+    {
+        webUrl: Image3
+    },
+    {
+        webUrl: Image4
+    },
+]
 
+function CreateCarousel(props) {
     return (
         <Carousel
             indicators={false}
@@ -40,7 +40,7 @@ function CreateCarousel(props) {
 function Item(props)
 {
     return (
-        <img className="carousel-image" src={props.item.webUrl} alt="MPK Photos" loading="lazy"/>
+        <img className="carousel-image" src={props.item.webUrl} alt="" loading="lazy"/>
     )
 }
 
