@@ -2,4 +2,4 @@
 Thomas Wong's Website
 
 
-Website Deployed at http://thomaswong.com/
+Check out the campaign website at http://thomaswong.com/
