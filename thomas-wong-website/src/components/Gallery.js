@@ -27,7 +27,7 @@ import { Box, ImageList, ImageListItem, useMediaQuery } from '@mui/material';
 function ImageGallery() {
     const columns = useMediaQuery('(max-width: 1000px)');
     return (
-        <Box className="gallery">
+        <Box>
             <ImageList variant="masonry" cols={columns ? 2 : 3} gap={8}>
                 {images.map((image) => (
                     <ImageListItem key={image.webUrl}>
@@ -136,7 +136,13 @@ const images = [
 
 const Gallery = () => {
     return (
+      <div className="gallery-container">
+        <a href="https://drive.google.com/drive/folders/1ZWMYUTjrpbFOs_HxGjAGHbNhtvxNbyxU?usp=sharing"
+          className="gallery-link">
+          Click Here to View the Downloadable Gallery Folder
+        </a>
         <ImageGallery />
+      </div>
     )
 }
 

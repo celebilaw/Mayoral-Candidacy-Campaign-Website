@@ -13,17 +13,16 @@ const Biography = () => {
                 </div>
                 <div className="biography-subTitle">
                     <span className="bio-content">President of San Gabriel Valley Municipal Water District, </span>
-                    <span className="bio-content">Public Affairs Manager at Southern California Edison, </span>
                     Candidate for Monterey Park City Council
                 </div>
                 <div className="biography-statement">
                     Keeping Monterey Park a city of opportunity for all
                 </div>
                 <hr className="bio-line-break"/>
-                <a href="mailto: votethomaswong@gmail.com" className="biography-contact">
+                <div className="biography-contact">
                     <span className="fa fa-envelope"></span>
                     votethomaswong@gmail.com
-                </a>
+                </div>
                 <div className="biography-content">
                     Thomas Wong is an accomplished community leader and  
                     environmental advocate who has dedicated his career to  
