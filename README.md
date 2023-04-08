@@ -2,4 +2,4 @@
 
 Check out the campaign website at http://thomaswong.com/
 
-Congratulations Thomas!
+Congratulations Thomas Wong!
