@@ -1,4 +1,4 @@
-# Mayoral-Campaign-Website for Montereey Park City Council
+# Mayoral-Campaign-Website for Monterey Park City Council
 
 Check out the campaign website at http://thomaswong.com/
 
